@@ -65,10 +65,16 @@ int main() {
 		cout << "2. Pop\n";
 		cout << "3. Display\n";
 		cout << "4. Exit\n";
-		cout << "\nEnter an Element: ";
+		cout << "\nEnter yoir choice: ";
 		cin >> ch;
 		switch (ch) {
-
+		case '1': {
+			cout << "\nElement an Element: ";
+			int element;
+			cin >> element;
+			s.push(element);
+			break;
+		}
 		}
 	}
 	
